@@ -72,6 +72,7 @@ torch.cuda.manual_seed(seed)
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 
+#Change path to required folder
 imgsh5_train = r"/nfs1/sagrawal/Data/Project_Anomaly/MOOD_train.h5"
 imgsh5_val = r"/nfs1/sagrawal/Data/Project_Anomaly/MOOD_toytest_brain.h5"
 log_path = r'/scratch/sagrawal/'
